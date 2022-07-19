@@ -1,0 +1,25 @@
+body {
+  margin: 0px !important;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#left-menu {
+  border-right: 1px solid salmon;
+  padding: 1em;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+}
+
+#left-menu ul {
+  top: 40px;
+  position: sticky;
+}
+
+#main-view {
+  padding: 1em;
+}
